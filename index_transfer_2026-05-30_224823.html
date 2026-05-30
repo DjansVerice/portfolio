@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio professionnel - Evarice Adam, Étudiant en Génie Informatique">
+    <title>Evarice Adam | Portfolio GI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="fontawesome-free-7.2.0-web/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-text">EA</span>
+                <span class="logo-dot"></span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Accueil</a></li>
+                <li><a href="#about" class="nav-link">À propos</a></li>
+                <li><a href="#skills" class="nav-link">Compétences</a></li>
+                <li><a href="#project" class="nav-link">Projet</a></li>
+                <li><a href="#interests" class="nav-link">Centres d'intérêt</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section Héro -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-shape-1"></div>
+            <div class="hero-shape-2"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-badge">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>Étudiant en Génie Informatique</span>
+                </div>
+                <h1 class="hero-name">
+                    Salut, je suis <span class="highlight">DJANLAI Evarice Adam</span>
+                </h1>
+                <h2 class="hero-title">
+                    Passionné par le développement web & la conception de solutions numériques
+                </h2>
+                <p class="hero-description">
+                    Je construis des applications web élégantes et fonctionnelles. 
+                    Actuellement étudiant, je transforme mes connaissances en projets concrets 
+                    pour créer des solutions qui font la différence.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#project" class="btn btn-primary">
+                        <i class="fas fa-folder-open"></i> Voir mon projet
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <i class="fas fa-paper-plane"></i> Me contacter
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <span class="stat-number">1</span>
+                        <span class="stat-label">Projet réalisé</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="stat-number">6</span>
+                        <span class="stat-label">Langages maîtrisés</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="stat-number">2</span>
+                        <span class="stat-label">Langues parlées</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <div class="image-border"></div>
+                    <img src="photo.jpg" alt="Evarice Adam" class="profile-photo" onerror="this.style.display='none'; this.parentElement.querySelector('.image-placeholder').style.display='flex';">
+                    <div class="image-placeholder" style="display: none;">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+                <div class="hero-card">
+                    <div class="card-dot"></div>
+                    <p class="card-text">Ouvert aux opportunités</p>
+                    <p class="card-subtext">Stage • Freelance • Projets</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Qui suis-je ?</span>
+                <h2 class="section-title">À propos de moi</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        Étudiant passionné en <strong>Génie Informatique</strong>, je me spécialise dans le développement 
+                        d'applications web et la gestion de bases de données.
+                    </p>
+                    <p>
+                        Mon parcours académique m'a permis d'acquérir des compétences solides en programmation 
+                        et en conception de systèmes. Je suis constamment à la recherche de nouveaux défis 
+                        pour appliquer mes connaissances théoriques à des projets pratiques.
+                    </p>
+                    <p>
+                        Rigoureux, curieux et autonome, j'aime résoudre des problèmes complexes et créer 
+                        des solutions qui ont un impact positif sur les utilisateurs.
+                    </p>
+                    <div class="about-info-grid">
+                        <div class="about-info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="info-content">
+                                <span class="info-label">Email</span>
+                                <span class="info-value">evarice.adam@email.com</span>
+                            </div>
+                        </div>
+                        <div class="about-info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="info-content">
+                                <span class="info-label">Téléphone</span>
+                                <span class="info-value">+237 659 82 40 77</span>
+                            </div>
+                        </div>
+                        <div class="about-info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="info-content">
+                                <span class="info-label">Localisation</span>
+                                <span class="info-value">Douala, Cameroun</span>
+                            </div>
+                        </div>
+                        <div class="about-info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <div class="info-content">
+                                <span class="info-label">Statut</span>
+                                <span class="info-value">Étudiant • Disponible</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-education">
+                    <div class="education-card">
+                        <div class="education-icon">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <h3>Formation</h3>
+                        <div class="education-item">
+                            <span class="edu-year">2023 - Présent</span>
+                            <h4>Génie Informatique</h4>
+                            <p>LOCALHOST Academie</p>
+                            <p class="edu-desc">Spécialisation en développement logiciel et systèmes d'information</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Mes atouts</span>
+                <h2 class="section-title">Compétences techniques</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-grid">
+                <!-- Langages de programmation -->
+                <div class="skill-card">
+                    <div class="skill-card-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Langages de programmation</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">HTML</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">CSS</span>
+                                <span class="skill-percentage">50%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="50%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-percentage">40%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="40%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">PHP</span>
+                                <span class="skill-percentage">50%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="50%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-percentage">40%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="40%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">C</span>
+                                <span class="skill-percentage">40%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="40%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Langues -->
+                <div class="skill-card">
+                    <div class="skill-card-header">
+                        <i class="fas fa-language"></i>
+                        <h3>Langues</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">
+                                    <img src="https://flagcdn.com/24x18/fr.png" alt="FR" class="flag-icon" onerror="this.style.display='none'">
+                                    Français
+                                </span>
+                                <span class="skill-percentage">Natif</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="100%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">
+                                    <img src="https://flagcdn.com/24x18/gb.png" alt="EN" class="flag-icon" onerror="this.style.display='none'">
+                                    Anglais
+                                </span>
+                                <span class="skill-percentage">Intermédiaire</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="55%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Outils -->
+                <div class="skill-card">
+                    <div class="skill-card-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Outils & Technologies</h3>
+                    </div>
+                    <div class="tools-grid">
+                        <span class="tool-tag"><i class="fab fa-git-alt"></i> Git</span>
+                        <span class="tool-tag"><i class="fas fa-database"></i> MySQL</span>
+                        <span class="tool-tag"><i class="fab fa-microsoft"></i> VS Code</span>
+                        <span class="tool-tag"><i class="fab fa-figma"></i> Figma</span>
+                        <span class="tool-tag"><i class="fas fa-terminal"></i> Terminal</span>
+                    </div>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="skill-card">
+                    <div class="skill-card-header">
+                        <i class="fas fa-star"></i>
+                        <h3>Soft Skills</h3>
+                    </div>
+                    <div class="soft-skills-grid">
+                        <span class="soft-tag">Rigueur</span>
+                        <span class="soft-tag">Autonomie</span>
+                        <span class="soft-tag">Curiosité</span>
+                        <span class="soft-tag">Résolution de problèmes</span>
+                        <span class="soft-tag">Travail d'équipe</span>
+                        <span class="soft-tag">Adaptabilité</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projet -->
+    <section id="project" class="project">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Réalisation</span>
+                <h2 class="section-title">Mon projet</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="project-content">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-image-bg">
+                            <i class="fas fa-book-open"></i>
+                        </div>
+                        <div class="project-badge">Projet académique</div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Système de Gestion de Bibliothèque</h3>
+                        <p class="project-description">
+                            Application web complète permettant la gestion efficace d'une bibliothèque : 
+                            catalogage des livres, gestion des emprunts, suivi des adhérents et génération 
+                            de rapports statistiques. Interface intuitive et base de données optimisée.
+                        </p>
+                        <div class="project-features">
+                            <h4><i class="fas fa-list-check"></i> Fonctionnalités clés</h4>
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i> Gestion du catalogue de livres</li>
+                                <li><i class="fas fa-check-circle"></i> Système d'emprunt et de retour</li>
+                                <li><i class="fas fa-check-circle"></i> Espace adhérent personnalisé</li>
+                                <li><i class="fas fa-check-circle"></i> Recherche avancée multicritères</li>
+                                <li><i class="fas fa-check-circle"></i> Tableau de bord statistique</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag"><i class="fab fa-html5"></i> HTML</span>
+                            <span class="tech-tag"><i class="fab fa-css3-alt"></i> CSS</span>
+                            <span class="tech-tag"><i class="fab fa-js"></i> JavaScript</span>
+                            <span class="tech-tag"><i class="fab fa-php"></i> PHP</span>
+                            <span class="tech-tag"><i class="fas fa-database"></i> MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary">
+                                <i class="fab fa-github"></i> Code source
+                            </a>
+                            <a href="#" class="btn btn-outline-dark">
+                                <i class="fas fa-external-link-alt"></i> Démo live
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Centres d'intérêt -->
+    <section id="interests" class="interests">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Passions</span>
+                <h2 class="section-title">Centres d'intérêt</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="interests-grid">
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Développement Web</h3>
+                    <p>Création de sites et applications web responsive avec les dernières technologies.</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Bases de données</h3>
+                    <p>Conception et optimisation de bases de données relationnelles pour des applications performantes.</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <i class="fas fa-shield-halved"></i>
+                    </div>
+                    <h3>Cybersécurité</h3>
+                    <p>Sensibilisation aux bonnes pratiques de sécurité informatique et protection des données.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Restons en contact</span>
+                <h2 class="section-title">Contactez-moi</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Discutons de votre projet</h3>
+                    <p>Je suis toujours ouvert aux nouvelles opportunités, collaborations et discussions autour du développement web.</p>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <span class="contact-label">Email</span>
+                                <span class="contact-value">evarice.adam@email.com</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <span class="contact-label">Téléphone</span>
+                                <span class="contact-value">+237 659 82 40 77</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <span class="contact-label">Localisation</span>
+                                <span class="contact-value">Douala, Cameroun</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link" title="Twitter"><i class="fab fa-x-twitter"></i></a>
+                        <a href="#" class="social-link" title="Discord"><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+                <form id="contact-form" class="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Nom complet</label>
+                            <div class="input-wrapper">
+                                <i class="fas fa-user"></i>
+                                <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <div class="input-wrapper">
+                                <i class="fas fa-envelope"></i>
+                                <input type="email" id="email" name="email" placeholder="Votre email" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Sujet</label>
+                        <div class="input-wrapper">
+                            <i class="fas fa-heading"></i>
+                            <input type="text" id="subject" name="subject" placeholder="Sujet de votre message" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <div class="input-wrapper">
+                            <i class="fas fa-message"></i>
+                            <textarea id="message" name="message" placeholder="Votre message..." rows="5" required></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <i class="fas fa-paper-plane"></i> Envoyer le message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span>EA</span>
+                </div>
+                <p>&copy; 2026 Evarice Adam. Tous droits réservés.</p>
+                <p class="footer-tagline">Construisons le futur, on donne le meilleur de nous-même.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
